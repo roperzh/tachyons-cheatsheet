@@ -1,0 +1,79 @@
+name: Colors
+
+docs:
+
+src: colors
+
+description: >
+
+base:
+
+modifiers:
+  - color^black
+  - color^near-black
+  - color^dark-gray
+  - color^mid-gray
+  - color^gray
+  - color^silver
+  - color^light-silver
+  - color^moon-gray
+  - color^light-gray
+  - color^black-90
+  - color^black-80
+  - color^black-70
+  - color^black-60
+  - color^black-50
+  - color^black-40
+  - color^black-30
+  - color^black-20
+  - color^black-10
+  - color^black-05
+  - color^black-025
+  - color^black-0125
+  - color^dark-red
+  - color^red
+  - color^light-red
+  - color^orange
+  - color^gold
+  - color^yellow
+  - color^light-yellow
+  - color^purple
+  - color^light-purple
+  - color^dark-pink
+  - color^hot-pink
+  - color^pink
+  - color^light-pink
+  - color^dark-green
+  - color^green
+  - color^light-green
+  - color^navy
+  - color^dark-blue
+  - color^blue
+  - color^light-blue
+  - color^lightest-blue
+  - color^washed-blue
+  - color^washed-green
+  - color^washed-yellow
+  - color^washed-red
+  - color^near-white
+  - color^white
+  - color^white-90
+  - color^white-80
+  - color^white-70
+  - color^white-60
+  - color^white-50
+  - color^white-40
+  - color^white-30
+  - color^white-20
+  - color^white-10
+  - color^white-05
+  - color^white-025
+  - color^white-0125
+  - color^transparent
+
+
+media:
+
+tags:
+  - colors
+  - palette

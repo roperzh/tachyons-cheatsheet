@@ -1,0 +1,22 @@
+name: Outlines
+
+docs:
+
+src: outlines
+
+description: >
+
+base:
+  - outline
+
+modifiers:
+  - -transparent = 1px solid transparent
+  - -0 = outline 0
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - outline

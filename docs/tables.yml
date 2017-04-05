@@ -1,0 +1,23 @@
+name: Tables
+
+docs: http://tachyons.io/docs/elements/tables/
+
+src: tables
+
+description:
+
+base:
+  - striped
+  - collapse
+
+modifiers:
+  - light-silver
+  - moon-gray
+  - light-gray
+  - near-white
+
+media:
+
+tags:
+  - tables
+  - collapse

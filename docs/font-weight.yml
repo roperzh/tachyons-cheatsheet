@@ -1,0 +1,36 @@
+name: Font weight
+
+docs: http://tachyons.io/docs/typography/font-weight/
+
+src: font-weight
+
+description: >
+  Single purpose classes to set the font-weight of any element at any breakpoint.
+
+base:
+  - fw
+  - b = bold
+  - n = normal
+
+modifiers:
+  - 1 = literal value 100
+  - 2 = literal value 200
+  - 3 = literal value 300
+  - 4 = literal value 400
+  - 5 = literal value 500
+  - 6 = literal value 600
+  - 7 = literal value 700
+  - 8 = literal value 800
+  - 9 = literal value 900
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - font
+  - weight
+  - bold
+  - light
+  - normal

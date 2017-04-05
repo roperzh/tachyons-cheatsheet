@@ -1,0 +1,21 @@
+name: Code
+
+docs:
+
+src: code
+
+description: >
+  Set overflow properties for code chunks
+
+base:
+  - pre
+
+modifiers:
+
+media:
+
+literal:
+
+tags:
+  - code
+  - pre

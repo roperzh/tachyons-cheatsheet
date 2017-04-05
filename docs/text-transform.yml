@@ -1,0 +1,27 @@
+name: Text transform
+
+docs: http://tachyons.io/docs/typography/text-transform/
+
+src: text-transform
+
+description:
+
+base:
+  - tt = text-transform
+
+modifiers:
+  - c = capitalize
+  - l = lowercase
+  - u = uppercase
+  - n = none
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - text
+  - transform
+  - uppercase
+  - lowercase

@@ -1,0 +1,22 @@
+name: Debug
+
+docs: http://tachyons.io/docs/debug/
+
+src: debug-children
+
+description: >
+  Add the debug class to any element to see outlines on its
+  children.
+
+base:
+  - debug
+
+modifiers:
+  - -white
+  - -black
+
+media:
+
+tags:
+  - debug
+  - outline

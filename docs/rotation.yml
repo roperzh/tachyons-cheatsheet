@@ -1,0 +1,29 @@
+name: Rotation
+
+docs:
+
+src: rotations
+
+description:
+
+base:
+  - rotate
+
+modifiers:
+  - '-45'
+  - '-90'
+  - '-135'
+  - '-180'
+  - '-225'
+  - '-270'
+  - '-315'
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - rotation
+  - transform
+  - rotate

@@ -1,0 +1,32 @@
+name: Overflows
+
+docs:
+
+src: overflow
+
+description:
+
+base:
+  - overflow
+
+modifiers:
+  - -visible
+  - -hidden
+  - -scroll
+  - -auto
+  - -x-visible
+  - -x-hidden
+  - -x-scroll
+  - -x-auto
+  - -y-visible
+  - -y-hidden
+  - -y-scroll
+  - -y-auto
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - overflow

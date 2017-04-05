@@ -1,0 +1,27 @@
+name: Hover Effects
+
+docs: http://tachyons.io/docs/themes/hovers/
+
+src: hovers
+
+description: >
+  There are several classes for adding hover effects to elements.
+  Hover effects can be used to give visual affordance to the user
+  that an element can be interacted with.
+
+base:
+  - dim
+  - glow
+  - hide Child
+  - underline text
+  - grow
+  - pointer
+  - shadow
+
+modifiers:
+
+media:
+
+tags:
+  - hover
+  - effects

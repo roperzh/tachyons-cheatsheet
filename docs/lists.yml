@@ -1,0 +1,20 @@
+name: Lists
+
+docs: http://tachyons.io/docs/elements/lists/
+
+src: lists
+
+description: >
+  Sets the list style property to none.
+
+base:
+  - list
+
+modifiers:
+
+media:
+
+tags:
+  - list
+  - list-style-type
+  - list style

@@ -1,0 +1,26 @@
+name: Vertical align
+
+docs:
+
+src: vertical-align
+
+description:
+
+base:
+  - v
+
+modifiers:
+  - -base
+  - -mid
+  - -top
+  - -btm
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - alignment
+  - vertical
+  - vertical-align

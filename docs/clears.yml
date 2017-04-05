@@ -1,0 +1,28 @@
+name: Clears
+
+docs: http://tachyons.io/docs/layout/clearfix/
+
+src: clears
+
+description: >
+
+base:
+  - c
+
+modifiers:
+  - f = clearfix
+  - l = left
+  - r = right
+  - b = both
+  - n = none
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+literal:
+
+tags:
+  - clearfix
+  - float

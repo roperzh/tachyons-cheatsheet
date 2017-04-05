@@ -1,0 +1,39 @@
+name: Heights
+
+docs: http://tachyons.io/docs/layout/heights/
+
+src: heights
+
+description:
+
+base:
+  - h = height
+  - min-h = min-height
+  - min-vh = min-height vertical screen height
+  - vh = vertical screen height
+
+modifiers:
+  - 1 = 1st step in height scale
+  - 2 = 2nd step in height scale
+  - 3 = 3rd step in height scale
+  - 4 = 4th step in height scale
+  - 5 = 5th step in height scale
+  - -25 = literal value 25%
+  - -50 = literal value 50%
+  - -75 = literal value 75%
+  - -100 = literal value 100%
+  - -auto = string value of auto
+  - -inherit = string value of inherit
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+literal:
+
+tags:
+  - height
+  - min-height
+  - max-height
+  - measures

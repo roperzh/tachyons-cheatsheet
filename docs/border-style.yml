@@ -1,0 +1,26 @@
+name: Border Style
+
+docs: http://tachyons.io/docs/themes/borders/
+
+src: border-style
+
+description: >
+  Depends on base border module in _borders.css
+
+base:
+  - b
+
+modifiers:
+  - --none = none
+  - --dotted = dotted
+  - --dashed = dashed
+  - --solid = solid
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - border
+  - border-style

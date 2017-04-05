@@ -1,0 +1,33 @@
+name: Border Radius
+
+docs: http://tachyons.io/docs/themes/border-radius/
+
+src: border-radius
+
+description: >
+
+base:
+  - br
+
+modifiers:
+  - 0 = 0/none
+  - 1 = 1st step in scale
+  - 2 = 2nd step in scale
+  - 3 = 3rd step in scale
+  - 4 = 4th step in scale
+  - -100 = 100%
+  - -pill = 9999px
+  - --bottom
+  - --top
+  - --right
+  - --left
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - border
+  - border-radius
+  - pill

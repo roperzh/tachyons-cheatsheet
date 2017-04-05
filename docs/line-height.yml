@@ -1,0 +1,24 @@
+name: Line height
+
+docs: http://tachyons.io/docs/typography/line-height
+
+src: line-height
+
+description:
+
+base:
+  - lh = line-height
+
+modifiers:
+  - -solid
+  - -title
+  - -copy
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - leading
+  - line-height

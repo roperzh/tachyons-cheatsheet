@@ -1,0 +1,22 @@
+name: White space
+
+docs:
+
+src: white-space
+
+description:
+
+base:
+  - ws-normal
+  - nowrap
+  - pre
+
+modifiers:
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - whitespace

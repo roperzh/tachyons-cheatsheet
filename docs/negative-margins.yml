@@ -1,0 +1,37 @@
+name: Negative Margins
+
+docs:
+
+src: negative-margins
+
+description:
+
+base:
+  - n = negative
+
+modifiers:
+  - a = all
+  - t = top
+  - r = right
+  - b = bottom
+  - l = left
+
+  - 1 = 1st step in spacing scale
+  - 2 = 2nd step in spacing scale
+  - 3 = 3rd step in spacing scale
+  - 4 = 4th step in spacing scale
+  - 5 = 5th step in spacing scale
+  - 6 = 6th step in spacing scale
+  - 7 = 7th step in spacing scale
+
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+literal:
+
+tags:
+  - margins
+  - negative

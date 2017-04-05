@@ -1,0 +1,31 @@
+name: Font Family
+
+docs: http://tachyons.io/docs/typography/font-family/
+
+src: font-family
+
+description:
+
+base:
+  - sans-serif
+  - serif
+  - system-sans-serif
+  - system-serif
+  - ode, .code
+  - courier
+  - helvetica
+  - avenir
+  - athelas
+  - georgia
+  - times
+  - bodoni
+  - calisto
+  - garamond
+  - baskerville
+
+modifiers:
+
+media:
+
+tags:
+  - fonts

@@ -1,0 +1,25 @@
+name: Text align
+
+docs: http://tachyons.io/docs/typography/text-align/
+
+src: text-align
+
+description:
+
+base:
+  - t = text-align
+
+modifiers:
+  - l = left
+  - r = right
+  - c = center
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - text
+  - align
+  - center

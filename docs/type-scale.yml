@@ -1,0 +1,28 @@
+name: Type scale
+
+docs: http://tachyons.io/docs/typography/scale/
+
+src: type-scale
+
+description:
+
+base:
+  - f = font-size
+
+modifiers:
+  - 1 = 1st step in size scale
+  - 2 = 2nd step in size scale
+  - 3 = 3rd step in size scale
+  - 4 = 4th step in size scale
+  - 5 = 5th step in size scale
+  - 6 = 6th step in size scale
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - typography
+  - scale
+  - font-size

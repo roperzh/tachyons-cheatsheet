@@ -1,0 +1,27 @@
+name: Background Size
+
+docs: http://tachyons.io/docs/themes/background-size/
+
+src: background-size
+
+description: >
+  Often used in combination with background image set as an inline style
+  on an html element.
+
+base:
+
+modifiers:
+  - cover
+  - contain
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - background
+  - background-position
+  - cover
+  - repeat
+  - contain

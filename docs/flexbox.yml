@@ -1,0 +1,55 @@
+name: Flexbox
+
+docs:
+
+src: flexbox
+
+description:
+
+base:
+  - flex-none
+  - flex-column
+  - flex-row
+  - flex-wrap
+  - items-start
+  - items-end
+  - items-center
+  - items-baseline
+  - items-stretch
+  - self-start
+  - self-end
+  - self-center
+  - self-baseline
+  - self-stretch
+  - justify-start
+  - justify-end
+  - justify-center
+  - justify-between
+  - justify-around
+  - content-start
+  - content-end
+  - content-center
+  - content-between
+  - content-around
+  - content-stretch
+  - order-0
+  - order-1
+  - order-2
+  - order-3
+  - order-4
+  - order-5
+  - order-6
+  - order-7
+  - order-8
+  - order-last
+
+modifiers:
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - flex
+  - flexbox

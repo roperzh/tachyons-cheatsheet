@@ -1,0 +1,11 @@
+br {
+  content: " ";
+  display: block;
+  margin: 7px 0;
+}
+
+.message {
+  padding: 15px;
+  background: #66cfe0;
+  color: #fff;
+}

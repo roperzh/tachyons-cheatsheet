@@ -1,0 +1,27 @@
+name: Box Shadow
+
+docs: http://tachyons.io/docs/themes/box-shadow/
+
+src: box-shadow
+
+description: >
+
+base:
+  - shadow
+
+modifiers:
+  - 1 = 1st step in shadow scale
+  - 2 = 2nd step in shadow scale
+  - 3 = 3rd step in shadow scale
+  - 4 = 4th step in shadow scale
+  - 5 = 5th step in shadow scale
+
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - box-shadow
+  - shadow

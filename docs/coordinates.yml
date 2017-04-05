@@ -1,0 +1,33 @@
+name: Coordinates
+
+docs: http://tachyons.io/docs/layout/position/
+
+src: coordinates
+
+description: >
+  Use in combination with the position module.
+
+base:
+  - top
+  - bottom
+  - left
+  - right
+  - absolute--fill
+
+modifiers:
+  - -0 = literal value 0
+  - -1 = literal value 1
+  - -2 = literal value 2
+  - --1 = literal value -1
+  - --2 = literal value -2
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - top
+  - bottom
+  - left
+  - right

@@ -1,0 +1,40 @@
+name: Aspect Ratios
+
+docs:
+
+src: aspect-ratios
+
+description: >
+  This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
+  Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+  Make sure there are no height and width attributes on the embedded media.
+  Adapted from: https://github.com/suitcss/components-flex-embed
+
+  <div class="aspect-ratio aspect-ratio--16x9">
+   <iframe class="aspect-ratio--object"></iframe>
+  </div>
+
+base:
+  - aspect-ratio
+
+modifiers:
+  - --16x9
+  - --9x16
+  - --4x3
+  - --3x4
+  - --6x4
+  - --4x6
+  - --8x5
+  - --5x8
+  - --7x5
+  - --5x7
+  - --1x
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - aspect-ratio
+  - video

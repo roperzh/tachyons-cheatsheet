@@ -1,0 +1,32 @@
+name: Max Widths
+
+docs: http://tachyons.io/docs/layout/max-widths/
+
+src: max-widths
+
+description:
+
+base:
+  - mw = max-width
+
+modifiers:
+  - 1 = 1st step in width scale
+  - 2 = 2nd step in width scale
+  - 3 = 3rd step in width scale
+  - 4 = 4th step in width scale
+  - 5 = 5th step in width scale
+  - 6 = 6st step in width scale
+  - 7 = 7nd step in width scale
+  - 8 = 8rd step in width scale
+  - 9 = 9th step in width scale
+  - -100 = literal value 100%
+  - -none  = string value none
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - max width
+  - widths

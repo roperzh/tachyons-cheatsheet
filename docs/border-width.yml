@@ -1,0 +1,28 @@
+name: Border Width
+
+docs: http://tachyons.io/docs/themes/borders/
+
+src: border-widths
+
+description: >
+  Depends on base border module in _borders.css
+
+base:
+  - bw
+
+modifiers:
+  - 0 = 0 width border
+  - 1 = 1st step in border-width scale
+  - 2 = 2nd step in border-width scale
+  - 3 = 3rd step in border-width scale
+  - 4 = 4th step in border-width scale
+  - 5 = 5th step in border-width scale
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - border
+  - border-width

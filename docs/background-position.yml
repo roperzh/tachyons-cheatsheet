@@ -1,0 +1,27 @@
+name: Background Position
+
+docs:
+
+src: background-position
+
+description: >
+
+base:
+  - bg
+
+modifiers:
+  - -center = center center,
+  - -top = top center,
+  - -right = center right,
+  - -bottom = bottom center,
+  - -left = center left
+
+media:
+  - -ns = not-small
+  - -m  = medium
+  - -l  = large
+
+tags:
+  - background
+  - background-repeat
+  - background-position
