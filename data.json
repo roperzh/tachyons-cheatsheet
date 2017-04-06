@@ -30,6 +30,23 @@
   ]
 },
 {
+  "name": "Background Color",
+  "docs": "http://tachyons.io/docs/themes/skins/",
+  "src": "skins",
+  "description": "\n",
+  "base": [
+    "bg"
+  ],
+  "modifiers": [
+    "--color-name"
+  ],
+  "media": null,
+  "tags": [
+    "background",
+    "background-color"
+  ]
+},
+{
   "name": "Background Position",
   "docs": null,
   "src": "background-position",
@@ -1050,6 +1067,22 @@
   ]
 },
 {
+  "name": "Text Color",
+  "docs": "http://tachyons.io/docs/themes/skins/",
+  "src": "skins",
+  "description": "Use any valid color name as base to make the text of that color.\n",
+  "base": [
+    "color-name"
+  ],
+  "modifiers": null,
+  "media": null,
+  "tags": [
+    "text",
+    "color",
+    "skins"
+  ]
+},
+{
   "name": "Text decoration",
   "docs": "http://tachyons.io/docs/typography/text-decoration/",
   "src": "text-decoration",
@@ -1121,7 +1154,7 @@
   "tags": [
     "typography",
     "scale",
-    "font size"
+    "font-size"
   ]
 },
 {
