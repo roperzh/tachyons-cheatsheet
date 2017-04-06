@@ -24,3 +24,7 @@ node_modules/
 
 # Brunch output folder.
 public/
+
+
+# Files with sensitive data
+deploy.sh

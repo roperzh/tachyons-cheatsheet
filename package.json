@@ -7,7 +7,9 @@
   "repository": "",
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "deploy": "npm run build && ./deploy.sh",
+    "docs": "./docs2json.sh"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",

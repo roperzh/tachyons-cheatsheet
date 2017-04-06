@@ -39,8 +39,19 @@ In order to parse the `yml` to `json` you need to run the `docs2json` script loc
 at the rot:
 
 ```bash
-$ ./docs2json.sh
+$ npm run docs
 ```
+
+### Deploy
+
+First and foremost, you need to configure your deploy.sh file,
+a sample is provided in the document root. Then just run:
+
+```bash
+$ npm run deploy
+```
+
+Voilà!
 
 ## Contributing
 
