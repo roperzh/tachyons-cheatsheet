@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TACHYONS - Cheatsheet</title>
+  <meta name="description" content="Tachyons Component">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="author" content="@roperzh">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+
+  <style>
+    .last-child-no-bb:last-child {
+      border-bottom: none;
+    }
+    .top25 {
+      top: 25%;
+    }
+    .effect-reveal {
+      transition: opacity .15s ease-in;
+    }
+
+    .full-height {
+      min-height: calc(100vh - 350px);
+    }
+  </style>
+</head>
+<body class="sans-serif">
+  <header class="w-100 ph3 pv2 bg-near-white">
+    <div class="mw8-l center">
+      <h1 class="pa3 dib bg-white ttu f3 f2-ns"><a href="/" class="no-underline black dim">Tachyons Cheatsheet</a></h1>
+    </div>
+  </header>
+
+  <div id="app" class="full-height w-100 ph3"></div>
+
+  <footer class="w-100 ph3">
+    <div class="mw8 mh4 center pv4 flex justify-between justify-start-ns bt b--black">
+      <a class="link bb dib dim fw4 black mr3" href="http://tachyons.io/">Tachyons</a>
+      <a class="link bb dib dim fw4 black mr3" href="http://github.com/roperzh/tachyons-cheatsheet">GitHub</a>
+      <a class="link bb dib dim-fw4 ns dn black mr3" href="http://twitter.com/roperzh">Follow me!</a>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+  <script>require('app.js')</script>
+</body>
+</html>
