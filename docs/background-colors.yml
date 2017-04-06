@@ -1,0 +1,19 @@
+name: Background Color
+
+docs: http://tachyons.io/docs/themes/skins/
+
+src: skins
+
+description: >
+
+base:
+  - bg
+
+modifiers:
+  - --color-name
+
+media:
+
+tags:
+  - background
+  - background-color

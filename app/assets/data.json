@@ -30,6 +30,23 @@
   ]
 },
 {
+  "name": "Background Color",
+  "docs": "http://tachyons.io/docs/themes/skins/",
+  "src": "skins",
+  "description": "\n",
+  "base": [
+    "bg"
+  ],
+  "modifiers": [
+    "--color-name"
+  ],
+  "media": null,
+  "tags": [
+    "background",
+    "background-color"
+  ]
+},
+{
   "name": "Background Position",
   "docs": null,
   "src": "background-position",
@@ -1121,7 +1138,7 @@
   "tags": [
     "typography",
     "scale",
-    "font size"
+    "font-size"
   ]
 },
 {
