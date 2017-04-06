@@ -19,7 +19,7 @@ export default class CheatSheet extends Component {
   }
 
   loadData() {
-    fetch('/data.json').then((response) => {
+    fetch('./data.json').then((response) => {
       return response.text();
     })
     .then((rawData) => {
