@@ -1,0 +1,20 @@
+name: Text Color
+
+docs: http://tachyons.io/docs/themes/skins/
+
+src: skins
+
+description: >
+  Use any valid color name as base to make the text of that color.
+
+base:
+  - color-name
+
+modifiers:
+
+media:
+
+tags:
+  - text
+  - color
+  - skins
