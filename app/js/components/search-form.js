@@ -1,20 +1,25 @@
 import { h, render, Component } from 'preact';
+import KeyCodes from '../helpers/keycodes';
 
 export default class SearchForm extends Component {
   componentDidMount = () => {
     window.onkeydown = ({ keyCode }) => {
-      if (this.isNumber(keyCode) || this.isLetter(keyCode)) {
+      if (this.shouldFocus(keyCode)) {
         this.$input.focus();
+      }
+
+      if(KeyCodes.isEscape(keyCode)) {
+        this.setState({ search: '' });
       }
     }
   }
 
-  isNumber(keyCode) {
-    return keyCode >= 48 && keyCode <= 57;
-  }
-
-  isLetter(keyCode) {
-    return keyCode >= 65 && keyCode <= 90;
+  shouldFocus = (keyCode) => {
+    return (
+      KeyCodes.isNumber(keyCode) ||
+      KeyCodes.isLetter(keyCode) ||
+      KeyCodes.isEscape(keyCode)
+    );
   }
 
   handleSubmit = (e) => {
