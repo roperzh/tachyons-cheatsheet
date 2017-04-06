@@ -3,6 +3,10 @@ export default {
     return keyCode === 27;
   },
 
+  isBackSpace(keyCode) {
+    return keyCode === 8;
+  },
+
   isNumber(keyCode) {
     return keyCode >= 48 && keyCode <= 57;
   },

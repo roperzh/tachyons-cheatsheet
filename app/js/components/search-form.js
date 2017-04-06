@@ -18,7 +18,8 @@ export default class SearchForm extends Component {
     return (
       KeyCodes.isNumber(keyCode) ||
       KeyCodes.isLetter(keyCode) ||
-      KeyCodes.isEscape(keyCode)
+      KeyCodes.isEscape(keyCode) ||
+      KeyCodes.isBackSpace(keyCode)
     );
   }
 
