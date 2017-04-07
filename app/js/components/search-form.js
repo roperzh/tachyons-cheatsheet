@@ -43,7 +43,7 @@ export default class SearchForm extends Component {
           class="bg-near-white input-reset bn w-100 pa3"
           type="search"
           autofocus
-          placeholder="Start tipyng to search...">
+          placeholder="Start typing to search...">
         </input>
       </form>
     );
