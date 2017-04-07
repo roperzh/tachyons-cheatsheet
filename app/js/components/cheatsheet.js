@@ -1,5 +1,6 @@
 import { h, render, Component } from 'preact';
 import lunr from 'lunr';
+import 'whatwg-fetch'
 
 import SearchForm from 'js/components/search-form';
 import SearchResults from 'js/components/search-results';

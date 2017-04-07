@@ -22,6 +22,7 @@
     "clipboard": "^1.6.1",
     "lunr": "^1.0.0",
     "preact": "^7.2.1",
-    "uglify-js-brunch": "^2"
+    "uglify-js-brunch": "^2",
+    "whatwg-fetch": "^2.0.3"
   }
 }
