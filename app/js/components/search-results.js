@@ -11,7 +11,7 @@ export default class SearchResults extends Component {
     const baseHTMl = base ? <List items={base} /> : null;
 
     return (
-      <li class="pv3 bb last-child-no-bb b--black">
+      <li class="pv3 bb last-child-no-bb b--black nested-copy-line-height">
         <h2>
           <span class="ttu">{name}</span>
           <Link href={docs} title="Documentation" />
