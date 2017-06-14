@@ -38,7 +38,7 @@
     "bg"
   ],
   "modifiers": [
-    "--color-name"
+    "-color-name"
   ],
   "media": null,
   "tags": [
