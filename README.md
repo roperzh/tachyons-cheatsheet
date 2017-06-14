@@ -35,8 +35,7 @@ $ npm run start
 All the documentation is stored in `yml` files under the `docs` folder, this
 files are parsed and converted to a single `json` file located in `app/assets/data.json`.
 
-In order to parse the `yml` to `json` you need to run the `docs2json` script located
-at the rot:
+In order to parse the `yml` to `json` you need to run the `docs2json` script:
 
 ```bash
 $ npm run docs
