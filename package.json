@@ -9,7 +9,7 @@
     "start": "brunch watch --server",
     "build": "brunch build --production",
     "deploy": "npm run build && ./deploy.sh",
-    "docs": "./docs2json.sh"
+    "docs": "yaml2json docs/ --pretty --recursive | sed -e 's/}/},/g' -e '1s/^/[ /' -e '$ s//}\\]/g' > app/assets/data.json"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
@@ -23,6 +23,7 @@
     "lunr": "^1.0.0",
     "preact": "^7.2.1",
     "uglify-js-brunch": "^2",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^2.0.3",
+    "yamljs": "0.2.10"
   }
 }
